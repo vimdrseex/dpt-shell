@@ -1,6 +1,6 @@
 name: Android CI
 
-on:
+on:submodules: recursive
   push:
     branches: [ "main" ]
   pull_request:
